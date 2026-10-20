@@ -1,0 +1,32 @@
+.anchor
+.DS_Store
+target
+**/*.rs.bk
+node_modules
+test-ledger
+.yarn
+.surfpool
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Wallets and private keys
+id.json
+devnet-id.json
+devnet-wallet.json
+*-keypair.json
+*.pem
+*.key
+
+# Local configuration backups
+Anchor.toml.before-*
+
+# Build artifacts and dependencies
+/target/
+/.anchor/
+/app/node_modules/
+
+# Local configuration and version backups
+**/*.before-*
